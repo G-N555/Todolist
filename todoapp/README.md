@@ -39,6 +39,6 @@ React
 ```npm create-react-app```
 
 uuid(giving random ID for you)
-```npm install uuid````
+```npm install uuid```
 
 ## How's look like?
