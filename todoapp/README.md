@@ -4,7 +4,7 @@
 
 ## Introduction
 
-## How to use?
+## Instructions
 ### Add item
 ![instruction_add mov](https://user-images.githubusercontent.com/44974307/57639799-a6efab80-75eb-11e9-8be6-536f82ac61c0.gif)
 </br>
