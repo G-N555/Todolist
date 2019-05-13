@@ -18,6 +18,18 @@
 
 ### Delete item
 ![instruction_Delete mov](https://user-images.githubusercontent.com/44974307/57640075-6cd2d980-75ec-11e9-923b-177e206c5197.gif)
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+### Check item
+![instruction_completed mov](https://user-images.githubusercontent.com/44974307/57661344-6e6cc380-7625-11e9-979d-0ce40177f077.gif)
+
 ## Get start!
 
 ## How's look like?
