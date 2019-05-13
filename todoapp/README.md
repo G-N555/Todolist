@@ -31,8 +31,14 @@ Simple ToDo list for supporting your daily task.
 ## Check item
 ![instruction_completed mov](https://user-images.githubusercontent.com/44974307/57661344-6e6cc380-7625-11e9-979d-0ce40177f077.gif)
 
-## Get start!
+## Dependencies
+Yarn
 ```yarn```
 
+React
+```npm create-react-app```
+
+uuid(giving random ID for you)
+```npm install uuid````
 
 ## How's look like?
