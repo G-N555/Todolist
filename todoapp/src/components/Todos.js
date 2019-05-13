@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TodoItems from './TodoItems';
+import PropTypes from 'prop-types';
 
 export default class Todos extends Component {
   constructor(props) {
@@ -9,12 +10,13 @@ export default class Todos extends Component {
 
   render () {
     return (
-      <div className="App">{
+      <div className="todos">{
         this.props.todos.map((todo) => (
-          <TodoItems todo={todo}></TodoItems>
+          <TodoItems completed={this.props.completed} key={todo.id} todo={todo}></TodoItems>
         ))
         }
         </div>
         );
       };
     };
+    

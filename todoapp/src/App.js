@@ -19,7 +19,7 @@ export default class App extends Component {
     {
       id:2,
       title: "create items",
-      completed: false,
+      completed: true,
     },
     {
       id:3,
@@ -28,13 +28,22 @@ export default class App extends Component {
     }
   ]
   }
-  
+
+  completed = (id) => {
+    this.setState({ todos: this.state.todos.map((todo) => {
+      if(todo.id === id){
+        todo.completed = !todo.completed;
+      }
+      return todo;
+    }) 
+  });
+};
 
   render () {
     return (
       <div className="App">
         <h1>Test</h1>
-        <Todos todos={this.state.todos}>Todos</Todos>
+        <Todos completed={this.completed} todos={this.state.todos}></Todos>
       </div>
     );
   }
