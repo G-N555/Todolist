@@ -33,12 +33,12 @@ Simple ToDo list for supporting your daily task.
 
 ## Dependencies
 Yarn
-```yarn```
+- ```yarn```
 
 React
-```npm create-react-app```
+- ```npm create-react-app```
 
 uuid(giving random ID for you)
-```npm install uuid```
+- ```npm install uuid```
 
 ## How's look like?
