@@ -6,26 +6,21 @@ import uuid from 'uuid';
 
 
 export default class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-
   state = {
     todos: [
     {
       id: uuid.v4(),
-      title: "to make list",
+      title: "sample 1",
       completed: false,
     },
     {
       id: uuid.v4(),
-      title: "create items",
+      title: "sample 2",
       completed: false,
     },
     {
       id: uuid.v4(),
-      title: "delete list items",
+      title: "sample 3",
       completed: false,
     }
   ]
@@ -60,7 +55,7 @@ export default class App extends Component {
   render () {
     return (
       <div className="App">
-        <h1>Test</h1>
+        <h1>TO DO LIST!</h1>
         <Input addItem={this.addItem} />
         <Todos delItem={this.delItem} completed={this.completed} todos={this.state.todos}/>
       </div>

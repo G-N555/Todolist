@@ -3,10 +3,6 @@ import TodoItems from './TodoItems';
 
 
 export default class Todos extends Component {
-  constructor(props) {
-    super(props);
-    
-  }
 
   render () {
     return (
