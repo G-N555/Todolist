@@ -49,7 +49,9 @@ export default class App extends Component {
       title,
       completed: false,
     }
+    if(title !== ''){
     this.setState({ todos: [...this.state.todos, newTodo] });
+    }
   } 
 
   render () {

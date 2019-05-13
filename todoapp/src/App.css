@@ -68,7 +68,7 @@
 }
 
 form {
-  display: flex;
+  margin: 0 auto;
 }
 
 .inputForm {
@@ -83,7 +83,7 @@ form {
 }
 
 .submitBtn {
-  vertical-align: middle;
+  vertical-align: top;
   width: 100px;
   height: 54px;
   border-radius: 50px 50px 50px 50px;
