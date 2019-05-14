@@ -3,6 +3,10 @@ import './App.css';
 import Todos from "./components/Todos";
 import Input from "./components/Input";
 import uuid from 'uuid';
+import { Col } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+
 
 
 export default class App extends Component {
@@ -56,11 +60,13 @@ export default class App extends Component {
 
   render () {
     return (
-      <div className="App">
-        <h1>TO DO LIST!</h1>
-        <Input addItem={this.addItem} />
-        <Todos delItem={this.delItem} completed={this.completed} todos={this.state.todos}/>
-      </div>
+      <Container>
+        <div className="App">
+          <h1>TO DO LIST!</h1>
+          <Input addItem={this.addItem} />
+          <Todos delItem={this.delItem} completed={this.completed} todos={this.state.todos}/>
+        </div>
+      </Container>
     );
   }
 }

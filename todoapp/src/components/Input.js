@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import '../App.css';
+import { Col } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+
 
 export default class Input extends Component {
 
@@ -19,21 +23,27 @@ export default class Input extends Component {
 
   render () {
     return (
-        <form>
-          <input 
-            className="inputForm" 
-            type="text" 
-            name="title" 
-            placeholder="What you shold do?"
-            value={this.state.title}
-            onChange={this.onChange}
-          />
-          <input 
-            onClick={this.submitItem}
-            className="submitBtn" 
-            type="submit" 
-            value="Submit" />
-        </form>
-        );
-      };
+      <Container>
+            <Row>
+            <form>
+            <Col>
+              <input 
+                className="inputForm" 
+                type="text" 
+                name="title" 
+                placeholder="Input Your ToDo !"
+                value={this.state.title}
+                onChange={this.onChange}
+              />
+              <input 
+                onClick={this.submitItem}
+                className="submitBtn" 
+                type="submit" 
+                value="Submit" />
+            </Col>
+            </form>
+            </Row>
+      </Container>
+      );
     };
+  };

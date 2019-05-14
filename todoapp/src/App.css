@@ -1,5 +1,4 @@
 .App {
-  height: 800px;
   text-align: center;
   background-color: gray;
   padding: 0px 0px 80px 0px;
@@ -22,10 +21,10 @@
 }
 
 .todos {
-  margin: auto;
+  width: auto;
   background-color: #FFFAFA;
-  width: 800px;
-  height: 600px;
+  padding: 10px 10px 300px 10px;
+  margin: 0px 100px 0px 100px;
   border: solid 1px;
   border-radius: 50px 50px 50px 50px;
 }
@@ -38,14 +37,14 @@
 }
 
 .todoItems {
+  width: 70%;
   background-color: azure;
   border-radius: 50px 50px 50px 50px/ 35px 35px 35px 35px;
   border: solid 2px;
-  padding: 5px 20px 2px 20px;
-  width: 500px;
+  padding: 8px 20px 5px 20px;
   text-align: left;
   line-height: 25px;
-  margin: 10px;
+  margin: 5px;
   font-size: 18px;
   font-family: arial, sans-serif;
 }
@@ -54,7 +53,7 @@
   margin: 0px 30px 0px 30px;
 }
 
-.btn {
+.delBtn {
   float: right;
   padding: 5px 10px;
   margin: 0px 30px 3px 0;
@@ -72,9 +71,9 @@ form {
 }
 
 .inputForm {
-  width: 700px;
+  width: 70%;
   height: 50px;
-  margin: 0px 0px 25px 50px;
+  margin: 0px 0px 25px 20px;
   border-radius: 50px 50px 50px 50px;
   border: solid 1px;
   text-align: center;
@@ -84,7 +83,7 @@ form {
 
 .submitBtn {
   vertical-align: top;
-  width: 100px;
+  width: 10%;
   height: 54px;
   border-radius: 50px 50px 50px 50px;
   outline: none;
