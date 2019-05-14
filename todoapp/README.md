@@ -38,7 +38,5 @@ Yarn
 React
 - ```npm create-react-app```
 
-uuid(giving random ID for you)
+uuid(giving random ID for you(v4))
 - ```npm install uuid```
-
-## How's look like?
