@@ -3,8 +3,6 @@ import './App.css';
 import Todos from "./components/Todos";
 import Input from "./components/Input";
 import uuid from 'uuid';
-import { Col } from 'react-bootstrap';
-import { Row } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 
 
